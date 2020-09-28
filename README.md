@@ -32,7 +32,7 @@ npm start
 
 Then, follow the expo instructions to open the app in your phone or emulator.
 
-## How the ScrollView works?
+## How does ScrollView work?
 
 The ScrollView renders all its react child components vertically, but we can
 arrange them horizontally in a row using:
@@ -41,14 +41,14 @@ arrange them horizontally in a row using:
 <ScrollView horizontal>
 ```
 
-In this example, we show how to overlap the `Image` component with the header
+In this example, we show how to overlap the `Image` component on the header
 to get a cool effect. The touch is so fluid and fast that the user has a sense
-of a high performant application.
+of a high performance application.
 
 ### Performance issues
 
 The `ScrollView` renders all its react child components. If you need to render
-a carousel with more than 10 items, you can get better performance using the
+a carousel with more than 10 items, you can get better performance by using the
 `FlatList` built-in component.
 
 ## The layout
@@ -58,7 +58,7 @@ a carousel with more than 10 items, you can get better performance using the
 ### Header
 
 We will call the `View` number 1 "Header", this should have a fixed height
-because the `ScrollView` extends himself as a `flex: 1 ` style.
+because the `ScrollView` extends himself with a `flex: 1` style.
 
 :bulb: You can use a proportional height based on the device screen using the
 `useWindowDimensions` hook.
@@ -70,7 +70,7 @@ const {height} = useWindowDimensions();
 ### ScrollView
 
 The `ScrollView` is the number 2, I used a `marginTop: -70` to overlap the
-carousel with the header for a cool effect :sunglasses:.
+carousel on the header for a cool effect :sunglasses:.
 
 ### Carousel Itme
 
@@ -107,7 +107,7 @@ lastItem: {
 ### The item content
 
 The `View` number 4 is a placeholder for the text associated with the image.
-This style is required to keep everything centered in the `View` number 3, the
+This style is required to keep everything centered in the `View` number 3 - the
 carousel item.
 
 ```javascript
