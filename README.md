@@ -41,14 +41,14 @@ arrange them horizontally in a row using:
 <ScrollView horizontal>
 ```
 
-In this example, we shown how to overlap the `Image` component with the header
-to get a cool effect, and the touch is fluid and fast, so the user has a sense
-of a performant application.
+In this example, we show how to overlap the `Image` component with the header
+to get a cool effect. The touch is so fluid and fast that the user has a sense
+of a high performant application.
 
 ### Performance issues
 
-The `ScrollView` renders all its react child components, if you need to render
-a carousel with more than 10 items you can get better performance using the
+The `ScrollView` renders all its react child components. If you need to render
+a carousel with more than 10 items, you can get better performance using the
 `FlatList` built-in component.
 
 ## The layout
@@ -57,7 +57,7 @@ a carousel with more than 10 items you can get better performance using the
 
 ### Header
 
-We can call the `View` number 1 "Header", this should have a fixed height
+We will call the `View` number 1 "Header", this should have a fixed height
 because the `ScrollView` extends himself as a `flex: 1 ` style.
 
 :bulb: You can use a proportional height based on the device screen using the
@@ -70,11 +70,11 @@ const {height} = useWindowDimensions();
 ### ScrollView
 
 The `ScrollView` is the number 2, I used a `marginTop: -70` to overlap the
-carousel with the header for a cool effect.
+carousel with the header for a cool effect :sunglasses:.
 
 ### Carousel Itme
 
-The `View` number 3 is the "Carousel Item", I used a carousel of images because
+The `View` number 3 is the "Carousel Item". I used a carousel of images because
 is the most use case for carousels in real life.
 
 :bulb: A tool to create the image's shadow:
