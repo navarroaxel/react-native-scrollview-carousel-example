@@ -43,7 +43,7 @@ arrange them horizontally in a row using:
 
 In this example, we show how to overlap the `Image` component on the header
 to get a cool effect. The touch is so fluid and fast that the user has a sense
-of a high performance application.
+of a highly performance application.
 
 ### Performance issues
 
@@ -70,7 +70,7 @@ const {height} = useWindowDimensions();
 ### ScrollView
 
 The `ScrollView` is the number 2, I used a `marginTop: -70` to overlap the
-carousel on the header for a cool effect :sunglasses:.
+carousel on the header for a cool effect. :sunglasses:
 
 ### Carousel Itme
 
