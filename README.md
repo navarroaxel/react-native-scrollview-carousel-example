@@ -70,7 +70,7 @@ const {height} = useWindowDimensions();
 ### ScrollView
 
 The `ScrollView` is the number 2, I used a `marginTop: -70` to overlap the
-carousel with the header for a cool effect 😎.
+carousel with the header for a cool effect :sunglasses:.
 
 ### Carousel Itme
 
